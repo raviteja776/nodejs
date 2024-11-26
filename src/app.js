@@ -36,12 +36,3 @@ app.get("/user/:userId", (req,res)=> {
     console.log("Request",req.params, req.query);
     res.send({firstName:"Ravi" ,lastName:"Teja"});
 });
-/** 
-
-? - Optional
-+ - same key multiple
-* - any key multiple 
-
-.*fly$ - match
-((/a/)) - any letter with a matches
-*/
